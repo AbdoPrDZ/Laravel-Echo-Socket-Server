@@ -27,7 +27,7 @@
 * try to connect the laravel echo client, this some examples:
     * [flutter using laravel_echo_null](https://github.com/AbdoPrDZ/laravel_echo_null/tree/main/example).
     * [flutter using storage_database](https://github.com/AbdoPrDZ/storage_database/tree/main/example).
-    * [js using laravel_echo](https://github.com/AbdoPrDZ/laravel_echo_socket_server/tree/main/resources/js/bootstrap.js).
+    * [js using laravel_echo](https://github.com/AbdoPrDZ/Laravel-Echo-Socket-Server/tree/main/resources/js/bootstrap.js).
 * create your events and test it.
 
 ## Note: You can message me if there any problem.
