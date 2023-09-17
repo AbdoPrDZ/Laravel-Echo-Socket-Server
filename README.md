@@ -1,4 +1,4 @@
-# Laravel Echo Server (Socket.io) ^0.0.1
+# Laravel Echo Server (Socket.IO) ^0.0.1
 
 ## Versions
 
