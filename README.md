@@ -6,10 +6,10 @@
 | --------------------------- | --------- | ---------------------------------------------------------------------- |
 | laravel                     | 10.x      | [laravel](https://laravel.com/docs/10.x)                               |
 | node.js                     | 20.5.1    | [node.js](https://nodejs.org/en/download)                              |
-| fixed-laravel-echo-server   | 0.0.2     | [npm](https://www.npmjs.com/package/@abdopr/fixed-laravel-echo-server) |
+| fixed-laravel-echo-server   | 0.1.4     | [npm](https://www.npmjs.com/package/@abdopr/fixed-laravel-echo-server) |
 | redis-server                | 7.2.1     | [redis](https://redis.io/docs/getting-started)                         |
-| laravel_echo_null (flutter) | 0.0.5+4   | [pub.dev](https://pub.dev/packages/laravel_echo_null)                  |
-| storage_database (flutter)  | 0.0.9+4   | [pub.dev](https://pub.dev/packages/storage_database)                   |
+| laravel_echo_null (flutter) | 0.0.8     | [pub.dev](https://pub.dev/packages/laravel_echo_null)                  |
+| storage_database (flutter)  | 1.0.7+2   | [pub.dev](https://pub.dev/packages/storage_database)                   |
 
 ## Configure Steps:
 

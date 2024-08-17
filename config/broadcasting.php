@@ -58,6 +58,13 @@ return [
             'connection' => 'default',
         ],
 
+        'encrypted-redis' => [
+            'driver' => 'encrypted-redis',
+            'connection' => env('REDIS_CONNECTION', 'default'),
+            'prefix' => env('REDIS_PREFIX', ''),
+            'master_key' => env('REDIS_ENCRYPTION_MASTER_KEY_BASE64'),
+        ],
+
         'log' => [
             'driver' => 'log',
         ],

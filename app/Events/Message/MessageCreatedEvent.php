@@ -35,7 +35,8 @@ class MessageCreatedEvent implements ShouldBroadcast {
     */
     public function broadcastOn(): array {
         return [
-            new PrivateChannel('messages'),
+            // new PrivateChannel('messages'),
+            new Channel('private-encrypted-messages'),
         ];
     }
 

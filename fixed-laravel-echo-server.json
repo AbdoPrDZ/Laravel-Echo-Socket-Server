@@ -1,24 +1,26 @@
 {
 	"authHost": "http://localhost",
 	"authEndpoint": "/broadcasting/auth",
+	"clientConnectEndpoint": "/broadcasting/client_connect",
+	"clientDisconnectEndpoint": "/broadcasting/client_disconnect",
 	"clients": [
 		{
-			"appId": "8f438132e9f911bd",
-			"key": "8ca7edd79b6674ac41ee20b659c103d7"
+			"appId": "6150bbebba621b40",
+			"key": "76b188a4d4cf4e32a392f4c0e93b4f94"
 		}
 	],
 	"database": "redis",
 	"databaseConfig": {
 		"redis": {},
 		"sqlite": {
-			"databasePath": "/database/laravel-echo-server.sqlite"
+			"databasePath": "/database/fixed-laravel-echo-server.sqlite"
 		}
 	},
 	"devMode": true,
 	"host": null,
 	"port": "6001",
 	"protocol": "http",
-	"socketio": {},
+	"socketIO": {},
 	"secureOptions": 67108864,
 	"sslCertPath": "",
 	"sslKeyPath": "",
@@ -33,5 +35,12 @@
 		"allowOrigin": "http://localhost:80",
 		"allowMethods": "GET, POST",
 		"allowHeaders": "Origin, Content-Type, X-Auth-Token, X-Requested-With, Accept, Authorization, X-CSRF-TOKEN, X-Socket-Id"
-	}
+	},
+	"firebaseAdmin": {
+		"enabled": false,
+		"configSource": "service-account.json",
+		"databaseURL": "",
+		"channel": "private-firebase_admin"
+	},
+	"echoSever": null
 }
